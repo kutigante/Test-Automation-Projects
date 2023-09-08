@@ -14,3 +14,7 @@ Feature: GET all employees or single employee details
 #      | content-type | application/json |
 #    When User sends DELETE request to delete employee detail
 #    Then Verify status code is 400
+#    Given User sets the below headers for the api request
+#      | content-type | application/json |
+#    When User sends DELETE request to delete employee details
+#    Then Verify status code is 200
