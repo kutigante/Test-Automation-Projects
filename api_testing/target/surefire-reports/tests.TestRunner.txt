@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: tests.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 2, Skipped: 0, Time elapsed: 3.634 s <<< FAILURE! - in tests.TestRunner
+Verify that User is able to create a new employee using create api endpoint;(Create Employee scenario)  Time elapsed: 0.852 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+
+Verify user retrieves all the employees details(GET all employees or single employee details)  Time elapsed: 0.34 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<429>
+
+Verify user retrieves single employee details(GET all employees or single employee details)  Time elapsed: 0.52 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<429>
+
+Verify User is able to update the employee details using PUT end point(Update employee details using PUT)  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+
