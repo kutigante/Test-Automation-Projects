@@ -41,3 +41,12 @@ Feature: GET all employees or single employee details
       | name   | Tiger Nixon |
       | salary | 320800      |
       | age    | 61          |
+#  Scenario: Verify user retrieves single employee details1
+#    Given User sets the below headers for the api request
+#      | content-type | application/json |
+#    When User sends GET request to fetch single employee details
+#    Then Verify status code is 200
+#    And Verify GET response payload
+#      | name   | Tiger Nixon |
+#      | salary | 320800      |
+#      | age    | 61          |
